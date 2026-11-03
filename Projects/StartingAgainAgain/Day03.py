@@ -1,4 +1,5 @@
 #OOP in Python
+
 class Car:
     def __init__(self, make, model, year, color):
         self.make = make
