@@ -15,3 +15,14 @@ def introduce(student):
 student1 = Student("Tanush")
 
 introduce(student1)
+
+# Without walrus operator
+number = len("Python")
+
+if number > 5:
+    print(number)
+
+
+# With walrus operator
+if (number := len("Python")) > 5:
+    print(number)
