@@ -22,3 +22,16 @@
 # values = {5, 4, 6, 3, 6, 2}
 # sorted_values = sorted(values)
 # print(sorted_values)
+
+# .map()
+# the python map() function is used to apply a specific function to each item in an iterable (like a list, tuple, or set)
+# and return a new iterable with the results.
+# It takes two arguments: the function to apply and the iterable to process.
+
+number = [1, 2, 3, 4, 5]
+
+def Square(n):
+    return n * n
+
+result = map(Square, number)
+print(result)  
