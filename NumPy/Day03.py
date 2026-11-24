@@ -52,3 +52,6 @@ arr = np.array([
         ]
     ]
 ])
+
+# num = np.array([0, 0, 0, 0])
+# print(num[::-1])
