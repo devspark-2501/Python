@@ -58,12 +58,12 @@ arr = np.array([
 
 
 #arithmetic operations
-array = np.array([1, 2, 3])
-print(array + 1)
-print(array - 2)
-print(array * 3)
-print(array / 4)
-print(array ** 5)
+# array = np.array([1, 2, 3])
+# print(array + 1)
+# print(array - 2)
+# print(array * 3)
+# print(array / 4)
+# print(array ** 5)
 
 
 #   Function	                     Purpose
@@ -78,3 +78,18 @@ print(array ** 5)
 # np.round(a)	                   Round values
 # np.floor(a)	                    Round down
 # np.ceil(a)	                     Round up
+
+
+arr = np.array([2.3, -4.7, 6.5, 9.8])
+print(arr)
+
+print(np.add(arr, 2)) # [ 4.3 -2.7  8.5 11.8]
+print(np.subtract(arr, 2)) # [ 0.3 -6.7  4.5  7.8]
+print(np.multiply(arr, 2)) # [ 4.6 -9.4 13.  19.6]
+print(np.divide(arr, 2)) # [ 1.15 -2.35  3.25  4.9 ]
+print(np.power(arr, 2)) # [ 5.29 22.09 42.25 96.04]
+print(np.sqrt(np.abs(arr))) # [1.51657509 2.16794834 2.54950976 3.13049517]
+print(np.abs(arr)) # [2.3 4.7 6.5 9.8]
+print(np.round(arr)) # [ 2. -5.  6. 10.]
+print(np.floor(arr)) # [ 2. -5.  6.  9.]
+print(np.ceil(arr)) # [ 3. -4.  7. 10.]
