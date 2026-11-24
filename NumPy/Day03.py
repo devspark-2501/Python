@@ -1,9 +1,9 @@
 import numpy as np
 
-arr = np.array([
-    [
-        [
-            [1,  2,  3],
+arr = np.array([ #I
+    [ #II
+        [ #III
+            [1,  2,  3], #IV
             [4,  5,  6]
         ],
         [
@@ -25,3 +25,6 @@ arr = np.array([
 
 print(arr.ndim)
 print(arr.shape)
+
+
+print(arr[0, 2, 0, 1])
