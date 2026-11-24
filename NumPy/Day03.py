@@ -55,3 +55,26 @@ arr = np.array([
 
 # num = np.array([0, 0, 0, 0])
 # print(num[::-1])
+
+
+#arithmetic operations
+array = np.array([1, 2, 3])
+print(array + 1)
+print(array - 2)
+print(array * 3)
+print(array / 4)
+print(array ** 5)
+
+
+#   Function	                     Purpose
+
+# np.add(a, b)	                    Addition
+# np.subtract(a, b)	               Subtraction
+# np.multiply(a, b)	              Multiplication
+# np.divide(a, b)	                 Division
+# np.power(a, b)	              Exponentiation
+# np.sqrt(a)	                   Square root
+# np.abs(a)	                     Absolute values
+# np.round(a)	                   Round values
+# np.floor(a)	                    Round down
+# np.ceil(a)	                     Round up
