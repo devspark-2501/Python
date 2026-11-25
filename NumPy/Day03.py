@@ -80,6 +80,7 @@ arr = np.array([
 # np.ceil(a)	                     Round up
 
 
+
 arr = np.array([2.3, -4.7, 6.5, 9.8])
 print(arr)
 
